@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica Neue;
+}
+
+/*  HEADER   */
+
+header{
+    background-image: url("/Users/sam/Desktop/420/images/tt3.jpg");
+    background-color: rgb(180, 102, 102);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    text-align: center;
+    height: 250px;
+        
+}
+
+header a{
+    color: rgb(70, 39, 39);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+}
+li a:hover{
+    color: rgb(238, 174, 174);
+}
+header .logo a{
+    background-image: url("/Users/sam/Desktop/420/images/logoicon.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 110px;
+    height: 110px;
+    text-indent: -9999px;
+    top: -20px;    
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+/*   FEATURES  */
+
+.features{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.features figure{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features figure img{
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: grey 0 0 10px;
+    width: 250px;
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+    padding: 20px 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .header{
+        background-color: red;
+    }
+
+}
