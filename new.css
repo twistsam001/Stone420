@@ -7,7 +7,7 @@
 /*  HEADER   */
 
 header{
-    background-image: url("/Users/sam/Desktop/420/images/tt3.jpg");
+    background-image: url("images/tt3.jpg");
     background-color: rgb(180, 102, 102);
     background-repeat: no-repeat;
     background-size: 100%;    
@@ -26,7 +26,7 @@ li a:hover{
     color: rgb(238, 174, 174);
 }
 header .logo a{
-    background-image: url("/Users/sam/Desktop/420/images/logoicon.png");
+    background-image: url("images/logoicon.png");
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
@@ -75,12 +75,4 @@ footer{
     text-align: center;
     color: grey;
     padding: 20px 20px;
-}
-
-
-@media screen and (max-width: 700px) {
-    .header{
-        background-color: red;
-    }
-
 }
